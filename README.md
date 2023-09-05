@@ -1,4 +1,4 @@
-# Used Car Price price analysis and price prediction
+# Used Car analysis and price prediction
 An analysis of used vehicle dataset containing 426880 samples to understand the various features and their correlations on the vehicle price. 
 
 ## Contents
@@ -9,7 +9,9 @@ An analysis of used vehicle dataset containing 426880 samples to understand the 
 - Modeling
 - Evaluation
 - Insights
-- Recommendations 
+- Recommendations
+- Conclusion
+- Next steps
 
 
 ## Summary
@@ -49,5 +51,8 @@ Majority of the cars have put in less than 10k miles per year in 10 year range, 
 Average vehicle is about 10 - 12 years old, which might state that the vehicle can be used for another 10+ years
 Sedan and SUV are the maxmimum vehicle types are available with clean title, automatic drive
 Majority of the vehicles are automatic with very few manual shift. This indicates to source just the automatic transmission
+
+## Conclusion
+Close to 78% of the samples were discarded, thereby overfitting the model. Ridge regression model performed slightly better than linear or lasso. For the model to be effective, will need higher quality data. Using this, a recommendation model can be developed used salesmam to access high quality vehicles which can be sold faster. 
 
 
