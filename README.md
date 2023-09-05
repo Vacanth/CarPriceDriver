@@ -8,6 +8,7 @@ An analysis of used vehicle dataset containing 426880 samples to understand the 
 - Data Preparation
 - Modeling
 - Evaluation
+- Insights
 - Recommendations 
 
 
@@ -28,5 +29,25 @@ Scikit-learn regression models - linear, ridge and Lasso models develop to ident
 
 ## Evaluation
 ![Screenshot](model_comparison.png)
+![Screenshot](Ridge_model.png)
+
+
+
+## Insights
+Most used cars where found in CA, FL, NY, TX, OH and MI with average californa price around 14.8k
+Ford, Chevolet, Toyota, Honda and Nissan have the maximum number of listings as they are majority sedan
+Maximum number of vehicles are between 4 to 22 years old with majority sedan with automatic drive, fwd 
+White, Black and Silver are the top colors with average white colored vehicle price around 17.2k and black colored around 16.2k
+Pickup and trucks are selling for an average price of 23k, twice that of sedan
+Vehicles less than 10k annual miles are mostly automatic, 
+Most of the vehicles are gas, except for truck which mostly use diesel
 
 ## Recommendations
+Pickup and SUV are command 60% higher price when compared to sedan
+White and Black colored vehicles are lot more available than any other colors
+Majority of the cars have put in less than 10k miles per year in 10 year range, thereby indicating that consumers are switching to newer vehicles. This gives an opportunity to source low odometer vehicles.
+Average vehicle is about 10 - 12 years old, which might state that the vehicle can be used for another 10+ years
+Sedan and SUV are the maxmimum vehicle types are available with clean title, automatic drive
+Majority of the vehicles are automatic with very few manual shift. This indicates to source just the automatic transmission
+
+
